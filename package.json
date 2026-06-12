@@ -1,0 +1,15 @@
+{
+  "name": "sagwal-apps-in-toss",
+  "private": true,
+  "version": "20260612.5.0",
+  "description": "Sagwal local-first gua sha self-care Web/PWA prepared for Apps in Toss WebView review.",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "build": "node scripts/build-static-dist.js",
+    "build:web": "node scripts/build-static-dist.js",
+    "check": "node --check app.js && node --check service-worker.js"
+  },
+  "dependencies": {
+    "@apps-in-toss/web-framework": "^2.6.0"
+  }
+}

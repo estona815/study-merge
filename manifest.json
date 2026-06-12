@@ -1,0 +1,31 @@
+{
+  "name": "사괄",
+  "short_name": "사괄",
+  "description": "얼굴 붓기와 오늘의 멘탈을 같이 밀어내는 괄사 루틴, 타이머, 로컬 기록 앱",
+  "lang": "ko",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff3ed",
+  "theme_color": "#f06f7d",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

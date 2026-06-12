@@ -1,0 +1,12 @@
+{
+  "packageName": "gwalsa-web-pwa-20260612-133700",
+  "generatedAtUtc": "2026-06-12T04:37:01Z",
+  "generatedAtKst": "2026-06-12T13:37:01+0900",
+  "appBuild": "20260612a05",
+  "serviceWorkerCache": "gwalsa-routine-v20260612a05",
+  "zipPath": "output/release/gwalsa-web-pwa-20260612-133700.zip",
+  "sha256Path": "output/release/gwalsa-web-pwa-20260612-133700.zip.sha256",
+  "packageDir": "output/release/gwalsa-web-pwa-20260612-133700",
+  "manifestPath": "output/release/gwalsa-web-pwa-20260612-133700/release/release-manifest.json",
+  "zipSha256": "d0fd3f9c99e6f2cfc23d0a8a99eb9bcbfafb746b3d7cce188e4239b2483db3c3"
+}

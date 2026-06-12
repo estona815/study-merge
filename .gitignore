@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.cjs
+
+# Build output and framework caches
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+dist/
+build/
+out/
+coverage/
+tmp/
+
+# Generated release/QA artifacts. Keep only lightweight latest pointers tracked.
+output/*
+!output/release/
+output/release/*
+!output/release/latest-web-release.json
+!output/store-assets/
+output/store-assets/*
+!output/store-assets/latest-store-assets.json
+
+# Local caches and logs
+.cache/
+.turbo/
+.parcel-cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env and machine-local config
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Large or generated assets kept in Google Drive
+assets/raw/
+assets/generated/
+media/
+exports/
+handoff/
+*.ait
+*.zip
+*.mp4
+*.mov
+*.wav
+*.aiff
+*.flac
+*.mp3

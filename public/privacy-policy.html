@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:" />
+    <title>개인정보 처리방침 | 사괄</title>
+    <link rel="icon" href="../assets/icon.svg" type="image/svg+xml" />
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.65;
+        color: #2c2a2a;
+        background: #fcfaf7;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0 0 12px;
+      }
+      h2 {
+        margin: 20px 0 8px;
+      }
+      p {
+        margin: 0 0 12px;
+      }
+      ul {
+        padding-left: 20px;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>개인정보 처리방침</h1>
+      <p>최종 공개일: 2026-06-09</p>
+      <h2>개요</h2>
+      <p>사괄은 로컬 우선 정적 PWA입니다. 현재 버전은 계정, 백엔드 계정 데이터베이스, 분석 SDK, 광고/결제 SDK를 사용하지 않습니다. 의료 진단이나 치료 목적의 서비스가 아닙니다.</p>
+      <h2>수집·보관 정보</h2>
+      <ul>
+        <li>루틴 기록, 피부 반응/느낌, 설정, 커스텀 루틴</li>
+        <li>백업 메모(사용자 생성 JSON)</li>
+        <li>로컬 사진 보관 정책에 따른 압축 전후 이미지</li>
+      </ul>
+      <h2>처리 원칙</h2>
+      <ul>
+        <li>기기 내 localStorage에 저장되며, 서버 전송이 기본 동작으로 존재하지 않습니다.</li>
+        <li>전후 사진 파일은 브라우저 파일 접근을 통해 읽고 앱 내에서만 압축 처리합니다.</li>
+        <li>참고 가이드용 카메라/업로드 이미지는 참고 동선 표시용으로만 로컬 처리하며, 개인 식별·피부 상태 진단·미래 변화 예측에 사용하지 않습니다. 원본 카메라/업로드 이미지는 기록이나 백업에 저장하지 않습니다.</li>
+        <li>내보내기/백업 파일은 사용자가 직접 보관 및 삭제합니다.</li>
+      </ul>
+      <h2>권한</h2>
+      <ul>
+        <li>카메라: 사용자가 참고 가이드 카메라를 직접 시작할 때만 요청</li>
+        <li>사진/파일: 사용자가 전후 사진 기록 또는 참고 동선용 이미지를 직접 선택할 때만 사용</li>
+        <li>알림: 사용자 설정 시 알림 권한 요청</li>
+      </ul>
+      <h2>제3자 제공</h2>
+      <p>앱 코드는 사용자가 입력한 기록, 사진, 카메라 프레임, 백업 파일을 제3자 서비스로 전송하지 않습니다. 웹 호스팅 환경에서는 호스팅 제공자가 표준 서버 로그를 처리할 수 있습니다.</p>
+      <h2>보관</h2>
+      <ul>
+        <li>브라우저 저장소 정리나 앱 데이터 초기화를 통해 삭제 가능</li>
+        <li>개별 사진 삭제/정책 변경 기능 제공</li>
+        <li>기본 사진 보관 정책은 최근 10건이며, 사용자가 변경할 수 있음</li>
+      </ul>
+      <p>문의: 앱 배포자가 스토어 또는 웹사이트에 게시한 지원 채널을 통해 접수합니다.</p>
+    </main>
+  </body>
+</html>
