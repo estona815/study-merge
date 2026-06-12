@@ -51,7 +51,7 @@
 | Data handling | 현재 브라우저 중심 저장, 서버 계정 없음 |  |
 | Camera/upload scope | 사용자가 직접 선택한 경우 참고 동선 표시용 |  |
 | QA basis | `output/playwright/20260610-real-model-check/metrics.json` passed |  |
-| Build basis | `20260612a05` |  |
+| Build basis | `20260612a06` |  |
 | Official application category | TODO: owner selects 기업 또는 일반. 현재 사업자등록 보유 여부에 따라 달라짐. |  |
 | Official web form item name | 괄사 루틴 |  |
 | Official web form 200-character item description candidate | 브라우저 로컬에서 루틴 타이머, 기록, 백업/삭제, MediaPipe Face Landmarker 기반 참고 동선 표시를 제공하는 일반 뷰티 셀프케어 PWA입니다. |  |

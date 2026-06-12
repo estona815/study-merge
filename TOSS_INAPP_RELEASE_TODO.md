@@ -1,13 +1,13 @@
-# 사괄 Apps in Toss 제출 TODO
+# 싸괄 Apps in Toss 제출 TODO
 
-기준 빌드: `20260612a05`
+기준 빌드: `20260612a06`
 
 이 저장소에는 `granite.config.ts`와 정적 `dist` 빌드 스크립트를 추가했습니다. 공식 앱인토스 문서 기준으로 기존 웹 프로젝트는 `@apps-in-toss/web-framework` 설치, `ait init`, `granite.config.ts` 설정, 빌드 후 콘솔 업로드 흐름이 필요합니다. 이 로컬 환경에는 ax MCP와 npm 실행 파일이 없어 `.ait` 최종 번들 재생성은 검증하지 않았습니다.
 
 ## 콘솔에서 확정할 값
 
 - `appName`: 현재 placeholder는 `sagwal`입니다. 콘솔에서 확정한 값과 `granite.config.ts`를 일치시켜야 합니다.
-- 앱 이름: `사괄`
+- 앱 이름: `싸괄`
 - 브랜드 색상: 현재 placeholder는 `#2F7D72`입니다.
 - 아이콘 URL: 콘솔에 업로드한 아이콘 URL을 `granite.config.ts`의 `brand.icon`에 입력해야 합니다.
 - 앱 카테고리: 비게임, 뷰티/웰니스 성격으로 정책 검토가 필요합니다.
@@ -29,7 +29,9 @@
 - 썸네일: 1932x828 PNG
 - 스크린샷: 세로 636x1048 PNG 최소 3장 또는 가로 1504x741 PNG 최소 1장
 - 스크린샷에는 치료, 진단, 결과 보장, 얼굴 변화 단정 문구를 넣지 않습니다.
-- 토스에서 제공하는 아이콘 또는 이미지 리소스를 사괄 로고/썸네일로 사용하지 않습니다.
+- 토스에서 제공하는 아이콘 또는 이미지 리소스를 싸괄 로고/썸네일로 사용하지 않습니다.
+- 최신 Apps in Toss 제출 이미지 패킷: `output/apps-in-toss/gwalsa-apps-in-toss-submission-20260612-141845.zip`
+- 이미지/콘솔 초안의 표시명은 요청에 따라 `싸괄`로 제작했습니다. 최종 콘솔 앱 이름을 `싸괄`로 확정하면 `manifest.json`, `index.html`, `granite.config.ts`, 앱 내 브랜드 문구도 같은 이름으로 맞춘 뒤 `.ait`를 다시 만들어야 합니다.
 
 ## 제출 전 차단 항목
 

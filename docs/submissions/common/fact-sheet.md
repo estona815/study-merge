@@ -15,8 +15,8 @@
 
 | 항목 | 값 |
 | --- | --- |
-| App build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
+| App build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
 | Web release package | `gwalsa-web-pwa-20260610-100147` |
 | Web release generated | `2026-06-10T10:01:48+0900` |
 | Store asset package | `gwalsa-store-assets-20260610-100154` |

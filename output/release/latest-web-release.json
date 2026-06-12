@@ -1,12 +1,12 @@
 {
-  "packageName": "gwalsa-web-pwa-20260612-133700",
-  "generatedAtUtc": "2026-06-12T04:37:01Z",
-  "generatedAtKst": "2026-06-12T13:37:01+0900",
-  "appBuild": "20260612a05",
-  "serviceWorkerCache": "gwalsa-routine-v20260612a05",
-  "zipPath": "output/release/gwalsa-web-pwa-20260612-133700.zip",
-  "sha256Path": "output/release/gwalsa-web-pwa-20260612-133700.zip.sha256",
-  "packageDir": "output/release/gwalsa-web-pwa-20260612-133700",
-  "manifestPath": "output/release/gwalsa-web-pwa-20260612-133700/release/release-manifest.json",
-  "zipSha256": "d0fd3f9c99e6f2cfc23d0a8a99eb9bcbfafb746b3d7cce188e4239b2483db3c3"
+  "packageName": "gwalsa-web-pwa-20260612-141823",
+  "generatedAtUtc": "2026-06-12T05:18:24Z",
+  "generatedAtKst": "2026-06-12T14:18:24+0900",
+  "appBuild": "20260612a06",
+  "serviceWorkerCache": "gwalsa-routine-v20260612a06",
+  "zipPath": "output/release/gwalsa-web-pwa-20260612-141823.zip",
+  "sha256Path": "output/release/gwalsa-web-pwa-20260612-141823.zip.sha256",
+  "packageDir": "output/release/gwalsa-web-pwa-20260612-141823",
+  "manifestPath": "output/release/gwalsa-web-pwa-20260612-141823/release/release-manifest.json",
+  "zipSha256": "a216f6a041f4e8b38fe03fb3158652a8f083d9558feee819054999a36b508ec2"
 }

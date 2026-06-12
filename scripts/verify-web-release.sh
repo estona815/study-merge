@@ -171,7 +171,7 @@ if (!swCache.includes(appBuild)) {
 if (releaseManifest.appBuild !== appBuild || releaseManifest.serviceWorkerCache !== swCache) {
   throw new Error("release manifest build/cache metadata does not match packaged web files");
 }
-if (manifest.name !== "사괄" || manifest.short_name !== "사괄" || manifest.lang !== "ko") {
+if (manifest.name !== "싸괄" || manifest.short_name !== "싸괄" || manifest.lang !== "ko") {
   throw new Error("manifest identity fields look incomplete");
 }
 if (manifest.start_url !== "./index.html" || manifest.scope !== "./" || manifest.display !== "standalone") {
@@ -283,10 +283,10 @@ curl_check() {
   rg -q "$pattern" "$out"
 }
 
-curl_check "$BASE_URL/index.html" "사괄|${APP_BUILD_FROM_PACKAGE}"
+curl_check "$BASE_URL/index.html" "싸괄|${APP_BUILD_FROM_PACKAGE}"
 curl_check "$BASE_URL/app.js" "const appBuild"
 curl_check "$BASE_URL/service-worker.js" "gwalsa-routine-v"
-curl_check "$BASE_URL/manifest.json" "\"name\"\\s*:\\s*\"사괄\""
+curl_check "$BASE_URL/manifest.json" "\"name\"\\s*:\\s*\"싸괄\""
 curl_check "$BASE_URL/public/privacy-policy.html" "개인정보 처리방침"
 curl_check "$BASE_URL/public/terms-disclaimer.html" "이용약관|약관"
 curl_check "$BASE_URL/public/support.html" "지원 안내|앱 사용 지원"

@@ -1,11 +1,11 @@
 {
-  "packageName": "gwalsa-store-assets-20260612-133709",
-  "generatedAtUtc": "2026-06-12T04:37:10Z",
-  "generatedAtKst": "2026-06-12T13:37:10+0900",
-  "appBuild": "20260612a05",
-  "serviceWorkerCache": "gwalsa-routine-v20260612a05",
-  "zipPath": "output/store-assets/gwalsa-store-assets-20260612-133709.zip",
-  "sha256Path": "output/store-assets/gwalsa-store-assets-20260612-133709.zip.sha256",
-  "packageDir": "output/store-assets/gwalsa-store-assets-20260612-133709",
-  "zipSha256": "a18cb71e69f6c881af86ba1513b609f12680f665656ed78fad2a03a8cded9b3a"
+  "packageName": "gwalsa-store-assets-20260612-141832",
+  "generatedAtUtc": "2026-06-12T05:18:33Z",
+  "generatedAtKst": "2026-06-12T14:18:33+0900",
+  "appBuild": "20260612a06",
+  "serviceWorkerCache": "gwalsa-routine-v20260612a06",
+  "zipPath": "output/store-assets/gwalsa-store-assets-20260612-141832.zip",
+  "sha256Path": "output/store-assets/gwalsa-store-assets-20260612-141832.zip.sha256",
+  "packageDir": "output/store-assets/gwalsa-store-assets-20260612-141832",
+  "zipSha256": "39112e3c05467b1739a9baf1977bd8ef5ded3df3d69fb053cae676e859841927"
 }

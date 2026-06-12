@@ -8,8 +8,8 @@ This package uses the existing common submission basis and does not regenerate r
 
 | 항목 | 값 |
 | --- | --- |
-| App build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
+| App build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
 | Web release package | `gwalsa-web-pwa-20260610-100147` |
 | Web release size | `4.3M` extracted, `3.4M` zip |
 | Store asset package | `gwalsa-store-assets-20260610-100154` |

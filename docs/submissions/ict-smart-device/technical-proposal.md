@@ -6,7 +6,7 @@
 
 괄사 루틴은 일반 뷰티 셀프케어 사용자를 위한 정적 Web/PWA입니다. 루틴 안내, 단계별 타이머, 로컬 기록, 사진 메모, 백업/복원, 리마인더를 제공하며, 선택형 얼굴 참고 가이드는 MediaPipe Face Landmarker 기반으로 참고 동선을 표시합니다.
 
-현재 제출 기준 빌드는 `20260612a05`입니다. 서비스 워커 캐시는 `gwalsa-routine-v20260612a05`이며, 최신 release package와 QA evidence가 저장소에 고정되어 있습니다.
+현재 제출 기준 빌드는 `20260612a06`입니다. 서비스 워커 캐시는 `gwalsa-routine-v20260612a06`이며, 최신 release package와 QA evidence가 저장소에 고정되어 있습니다.
 
 ## 2. Problem Definition
 
@@ -149,4 +149,4 @@ Do not claim user count, revenue, approval, partnership, award, or certification
 
 ## 15. Submission Summary
 
-괄사 루틴은 build `20260612a05` 기준으로 루틴 타이머, 로컬 기록, 백업/삭제, 선택형 MediaPipe Face Landmarker 기반 참고 동선 표시를 제공하는 일반 뷰티 셀프케어 PWA입니다. 제출 자료는 브라우저 로컬 처리와 사용자 제어를 중심으로 설명하며, real MediaPipe QA evidence는 `referenceOnly=false` production path를 기준으로 합니다.
+괄사 루틴은 build `20260612a06` 기준으로 루틴 타이머, 로컬 기록, 백업/삭제, 선택형 MediaPipe Face Landmarker 기반 참고 동선 표시를 제공하는 일반 뷰티 셀프케어 PWA입니다. 제출 자료는 브라우저 로컬 처리와 사용자 제어를 중심으로 설명하며, real MediaPipe QA evidence는 `referenceOnly=false` production path를 기준으로 합니다.

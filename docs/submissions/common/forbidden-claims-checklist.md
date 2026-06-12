@@ -6,8 +6,8 @@
 
 | 항목 | 값 |
 | --- | --- |
-| App build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
+| App build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
 | Web zip SHA-256 | `4254c05459f5c6be3c79058c79e5688527586f4a79547d4ee397d4abf1b455c0` |
 | Store assets zip SHA-256 | `0ed6019ff70baa7d6e4ed0f0f485c653d0e868c84ab3b52d1fd9649bb3a01eb4` |
 | Latest QA result | `output/playwright/20260610-real-model-check/metrics.json` passed |

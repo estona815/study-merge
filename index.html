@@ -4,15 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' blob: data:; worker-src 'self' blob:" />
-    <meta name="description" content="사괄은 오늘의 얼굴 컨디션과 루틴을 간단하게 이어주는 괄사 루틴, 타이머, 로컬 기록 셀프케어 PWA입니다." />
+    <meta name="description" content="싸괄은 오늘의 얼굴 컨디션과 루틴을 간단하게 이어주는 괄사 루틴, 타이머, 로컬 기록 셀프케어 PWA입니다." />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#fff3ed" />
-    <title>사괄 - 괄사 루틴</title>
+    <title>싸괄 - 괄사 루틴</title>
     <link rel="manifest" href="./manifest.json" />
     <link rel="icon" type="image/png" href="./assets/icon-192.png" />
     <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260612a05" />
+    <link rel="stylesheet" href="./styles.css?v=20260612a06" />
   </head>
   <body>
     <div class="app-shell">
@@ -23,7 +23,7 @@
           </span>
           <div>
             <p class="eyebrow" id="todayLabel">오늘</p>
-            <h1>사괄</h1>
+            <h1>싸괄</h1>
             <p class="brand-subtitle">사과 + 괄사로 오늘의 루틴을 빠르게 점검하는 앱</p>
           </div>
         </div>
@@ -311,7 +311,7 @@
             <section class="face-entry-panel" id="faceEntryPanel" aria-label="참고 동선 가이드 진입">
                 <div>
                   <p class="eyebrow">참고 동선</p>
-                  <h2>사괄 동선 보기</h2>
+                  <h2>싸괄 동선 보기</h2>
                   <p>카메라 또는 사진 위에 턱선 · 광대 · 이마 · 목 참고 동선을 겹쳐 보여요. <strong>로컬 처리 · 비의료형 셀프 가이드</strong>입니다.</p>
                   <div class="face-entry-meta">
                     <span>동선 준비 → 추천 루틴 → 실전 가이드</span>
@@ -335,7 +335,7 @@
                       <path d="m16.9 4.9-2.1 2.1" />
                       <path d="m4.9 16.9 2.1 2.1" />
                     </svg>
-                    <span>사괄 동선 시작</span>
+                    <span>싸괄 동선 시작</span>
                   </button>
                   <button class="secondary-button" id="openFaceScanUploadButton" type="button">사진으로 시작</button>
                 </div>
@@ -513,7 +513,7 @@
         </section>
 
         <section class="screen" id="screen-routines" aria-label="루틴">
-          <section class="routine-picker-panel" aria-label="사괄 루틴 선택">
+          <section class="routine-picker-panel" aria-label="싸괄 루틴 선택">
             <div class="guide-head">
               <div>
                 <p class="eyebrow">루틴 선택</p>
@@ -603,7 +603,7 @@
             <div class="log-hero-copy">
               <div>
                 <p class="eyebrow">기록</p>
-                <h2>사괄 다이어리</h2>
+                <h2>싸괄 다이어리</h2>
               </div>
               <p id="logHeroMeta">이번 주 루틴 흐름을 불러옵니다.</p>
             </div>
@@ -743,7 +743,7 @@
           <section class="settings-overview-panel" aria-label="설정 요약">
             <div class="settings-overview-copy">
               <p class="eyebrow">설정</p>
-              <h2>내 사괄 상태</h2>
+              <h2>내 싸괄 상태</h2>
               <p id="settingsOverviewMeta">현재 케어 설정을 불러옵니다.</p>
             </div>
             <div class="settings-overview-grid">
@@ -1095,7 +1095,7 @@
         <div class="onboarding-card">
           <div class="onboarding-head">
             <div>
-              <p class="eyebrow">사괄 입장</p>
+              <p class="eyebrow">싸괄 입장</p>
               <h2>괄사하다가 사과처럼 살아나는 루틴</h2>
               <p>짧은 루틴, 낮은 압력, 로컬 기록으로 부담 없이 이어갑니다. 과한 약속 없이 오늘 얼굴만 살짝 챙깁니다.</p>
             </div>
@@ -1157,6 +1157,6 @@
       </section>
       <div class="toast" id="toast" role="status" aria-live="polite"></div>
     </div>
-    <script src="./app.js?v=20260612a05" defer></script>
+    <script src="./app.js?v=20260612a06" defer></script>
   </body>
 </html>

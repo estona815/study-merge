@@ -6,8 +6,8 @@
 
 | Field | Value |
 | --- | --- |
-| App build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
+| App build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
 | Web release package | `gwalsa-web-pwa-20260610-100147` |
 | Store asset package | `gwalsa-store-assets-20260610-100154` |
 | QA status | `passed` |

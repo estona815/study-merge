@@ -2,8 +2,8 @@
 
 ## Build Status
 
-- App build: `20260612a05`
-- Service worker cache: `gwalsa-routine-v20260612a05`
+- App build: `20260612a06`
+- Service worker cache: `gwalsa-routine-v20260612a06`
 - Dependency install: not required for static local QA; npm or pnpm is required only to run the Apps in Toss `@apps-in-toss/web-framework` workflow
 - Required smoke checks: `./scripts/launch-precheck.sh`, `./scripts/verify-web-release.sh`, local HTTP QA on target devices
 - Functional smoke checks: `./scripts/run-functional-smoke.sh`

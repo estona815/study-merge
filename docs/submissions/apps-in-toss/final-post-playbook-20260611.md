@@ -3,14 +3,14 @@
 ## 1) 내부 검증 요약(이미 통과)
 
 - final-launch-gate: passed
-- app build: 20260612a05
-- sw cache: gwalsa-routine-v20260612a05
+- app build: 20260612a06
+- sw cache: gwalsa-routine-v20260612a06
 - launch evidence: docs/launch-release-evidence-20260607.md
 - functional smoke: output/playwright/20260608-functional-smoke/functional-smoke-report.json
 - real model check: output/playwright/20260610-real-model-check/metrics.json
-- web zip: output/release/gwalsa-web-pwa-20260611-020247.zip
+- web zip: output/release/gwalsa-web-pwa-20260612-141823.zip
 - web sha256: 04baa04ac622a8325e42dbc8548a4308257e18316bf7db3ad287a23f30031adc
-- store assets zip: output/store-assets/gwalsa-store-assets-20260611-020255.zip
+- store assets zip: output/store-assets/gwalsa-store-assets-20260612-141832.zip
 - store assets sha256: a8d5973eeb9c653685a2e50d5ee4b7701a17ec452506c30b73e4b4681541adcc
 
 ## 2) 콘솔 제출 입력값 (복붙용)

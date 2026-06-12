@@ -24,8 +24,8 @@
 | --- | --- |
 | Product name | 괄사 루틴 |
 | Product type | 일반 뷰티 셀프케어 PWA |
-| Build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
+| Build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
 | Technology stack | HTML, CSS, vanilla JavaScript, localStorage, service worker, Web App Manifest, MediaPipe Face Landmarker |
 | Web release zip | `output/release/gwalsa-web-pwa-20260610-100147.zip` |
 | Web release SHA-256 | `4254c05459f5c6be3c79058c79e5688527586f4a79547d4ee397d4abf1b455c0` |

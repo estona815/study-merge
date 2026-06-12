@@ -6,8 +6,8 @@
 
 | 항목 | 값 |
 | --- | --- |
-| App build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
+| App build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
 | App shape | Static PWA: HTML, CSS, vanilla JavaScript |
 | Main storage | Browser `localStorage` |
 | Face guide model | `assets/models/face-landmarker/face-landmarker.task` |

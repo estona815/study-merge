@@ -1,0 +1,13 @@
+{
+  "packageName": "gwalsa-apps-in-toss-submission-20260612-141845",
+  "generatedAtUtc": "2026-06-12T05:18:49+00:00",
+  "generatedAtKst": "2026-06-12T14:18:49+09:00",
+  "appBuild": "20260612a06",
+  "serviceWorkerCache": "gwalsa-routine-v20260612a06",
+  "packageDir": "output/apps-in-toss/gwalsa-apps-in-toss-submission-20260612-141845",
+  "zipPath": "output/apps-in-toss/gwalsa-apps-in-toss-submission-20260612-141845.zip",
+  "sha256Path": "output/apps-in-toss/gwalsa-apps-in-toss-submission-20260612-141845.zip.sha256",
+  "zipSha256": "f76bc050dc6e94e6e5c011918385b258907455eab0e2fef4358cfcfe5c1b61fb",
+  "manifestPath": "output/apps-in-toss/gwalsa-apps-in-toss-submission-20260612-141845/submission-manifest.json",
+  "status": "ready-for-console-input"
+}

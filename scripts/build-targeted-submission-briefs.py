@@ -153,7 +153,7 @@ INBODYLIKE_SECTIONS = [
     ),
     (
         "Build and QA basis",
-        "기준 build는 20260612a05이며 service worker cache는 gwalsa-routine-v20260612a05입니다. "
+        "기준 build는 20260612a06이며 service worker cache는 gwalsa-routine-v20260612a06입니다. "
         "최신 QA 근거는 output/playwright/20260610-real-model-check/metrics.json이고 status는 passed입니다. "
         "production 참고 동선 흐름은 provider=mediapipe, detectorSource=real, source=upload-landmark, referenceOnly=false, containsMock=false 기준입니다.",
     ),
@@ -167,7 +167,7 @@ GENERIC_SECTIONS = [
     ),
     (
         "Current status",
-        "The current baseline build is 20260612a05. The web release package and store asset package are fixed for this submission cycle. The latest production reference route QA status is passed.",
+        "The current baseline build is 20260612a06. The web release package and store asset package are fixed for this submission cycle. The latest production reference route QA status is passed.",
     ),
     (
         "Data direction",
@@ -203,7 +203,7 @@ def main() -> None:
             ("Product", "Gwalsa Routine"),
             ("Representative", "Kwon Jun"),
             ("Contact", "kwonj0815@naver.com / 010-2445-0551"),
-            ("Build", "20260612a05"),
+            ("Build", "20260612a06"),
             ("QA", "passed"),
         ],
     )

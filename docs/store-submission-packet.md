@@ -4,9 +4,9 @@ This file lists the launch-ready local assets and the store-only items that stil
 
 ## Current Web/PWA Build
 
-- App name: 사괄
-- Build: `20260612a05`
-- Service worker cache: `gwalsa-routine-v20260612a05`
+- App name: 싸괄
+- Build: `20260612a06`
+- Service worker cache: `gwalsa-routine-v20260612a06`
 - Privacy page: `public/privacy-policy.html`
 - Terms page: `public/terms-disclaimer.html`
 - Support page: `public/support.html`

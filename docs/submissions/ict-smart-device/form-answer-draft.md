@@ -43,7 +43,7 @@
 
 선택형 얼굴 참고 가이드는 사용자가 카메라 또는 업로드를 직접 선택했을 때만 실행됩니다. 이 기능은 MediaPipe Face Landmarker 결과를 바탕으로 화면 위에 참고 동선을 표시하는 보조 기능이며, 원본 얼굴 이미지를 서버로 전송하거나 지속적인 얼굴 템플릿을 만드는 방식으로 설명하지 않습니다.
 
-현재 build `20260612a05`는 real MediaPipe upload flow에서 `provider=mediapipe`, `detectorSource=real`, `source=upload-landmark`, `referenceOnly=false`, `containsMock=false` 조건으로 QA를 통과했습니다. mock/reference 경로는 QA 전용이며 production 성공 기준으로 제출하지 않습니다. 본 앱은 의료 목적 아님, 보장 불가 범위의 일반 뷰티 셀프케어 PWA로만 설명합니다.
+현재 build `20260612a06`는 real MediaPipe upload flow에서 `provider=mediapipe`, `detectorSource=real`, `source=upload-landmark`, `referenceOnly=false`, `containsMock=false` 조건으로 QA를 통과했습니다. mock/reference 경로는 QA 전용이며 production 성공 기준으로 제출하지 않습니다. 본 앱은 의료 목적 아님, 보장 불가 범위의 일반 뷰티 셀프케어 PWA로만 설명합니다.
 
 ## Problem Definition
 
@@ -92,11 +92,11 @@
 
 ## Current Development Stage
 
-build `20260612a05` 기준으로 Web/PWA release package와 store asset package가 생성되어 있습니다. 최신 real-model QA는 `output/playwright/20260610-real-model-check/metrics.json`에서 `passed`입니다. 다만 공식 공모전 제출용 최종 HWP/PDF 신청서, 대표자 정보, 연락처, 서명, 동의 항목은 아직 owner input이 필요합니다.
+build `20260612a06` 기준으로 Web/PWA release package와 store asset package가 생성되어 있습니다. 최신 real-model QA는 `output/playwright/20260610-real-model-check/metrics.json`에서 `passed`입니다. 다만 공식 공모전 제출용 최종 HWP/PDF 신청서, 대표자 정보, 연락처, 서명, 동의 항목은 아직 owner input이 필요합니다.
 
 ## Validation Result
 
-- App build: `20260612a05`
+- App build: `20260612a06`
 - Web release zip: `output/release/gwalsa-web-pwa-20260610-100147.zip`
 - Web release SHA-256: `4254c05459f5c6be3c79058c79e5688527586f4a79547d4ee397d4abf1b455c0`
 - Store asset zip: `output/store-assets/gwalsa-store-assets-20260610-100154.zip`

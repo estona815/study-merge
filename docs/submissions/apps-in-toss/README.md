@@ -4,7 +4,7 @@
 
 ## Packet Scope
 
-이 패키지는 사괄을 앱인토스 비게임 미니앱으로 검토하기 위한 제출 초안입니다. 제품 설명은 **일반 뷰티 셀프케어 PWA** 범위로만 유지합니다.
+이 패키지는 싸괄을 앱인토스 비게임 미니앱으로 검토하기 위한 제출 초안입니다. 제품 설명은 **일반 뷰티 셀프케어 PWA** 범위로만 유지합니다.
 
 핵심 메시지:
 
@@ -24,6 +24,7 @@
 - `final-post-playbook-20260611.md`: 토스 인앱 최종 게시 실행 가이드(즉시 제출용)
 - `../../../granite.config.ts`: WebView 미니앱 설정 draft
 - `../../../TOSS_INAPP_RELEASE_TODO.md`: 콘솔 입력값, 에셋, 샌드박스 QA, `.ait` 업로드 TODO
+- `../../../output/apps-in-toss/latest-apps-in-toss-submission.json`: Apps in Toss 콘솔 업로드용 이미지/문안 패킷 최신 포인터
 
 ## Official References Checked
 
@@ -40,10 +41,11 @@
 ## Current Fit
 
 - Current app is a static PWA with HTML, CSS, and vanilla JavaScript.
-- Current build basis is `20260612a05`; release package must be regenerated after this packet is verified.
+- Current build basis is `20260612a06`; release package must be regenerated after this packet is verified.
 - Current implementation has no backend, account system, analytics SDK, advertising SDK, or payment SDK.
 - Current app uses browser `localStorage`, camera/upload only by user action, and service worker caching for web/PWA distribution.
 - MediaPipe Tasks Vision JS/WASM runtime is vendored under `assets/vendor/mediapipe/tasks-vision/0.10.35/`.
+- Latest Apps in Toss image package: `gwalsa-apps-in-toss-submission-20260612-141845`, generated with `싸괄` visual branding.
 
 ## External Items Still Required
 

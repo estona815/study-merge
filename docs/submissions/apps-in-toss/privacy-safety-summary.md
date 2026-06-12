@@ -6,8 +6,8 @@
 
 | 항목 | 값 |
 | --- | --- |
-| Current app build | `20260612a05` |
-| Current service worker cache | `gwalsa-routine-v20260612a05` |
+| Current app build | `20260612a06` |
+| Current service worker cache | `gwalsa-routine-v20260612a06` |
 | Current web release package | Regenerate after final verification |
 | Current web zip SHA-256 | Regenerate after final verification |
 | Current store asset package | Regenerate after final verification |

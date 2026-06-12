@@ -13,7 +13,7 @@
 | Field | Required Value | Current Draft | Owner Confirmation |
 |---|---|---|---|
 | appName | Console-confirmed unique key | `sagwal` in `granite.config.ts` | |
-| Display name | Korean app name | `사괄` | |
+| Display name | Korean app name | `싸괄` | |
 | Brand color | Console-visible brand color | `#2F7D72` | |
 | Icon URL | URL copied from console-uploaded icon | Empty in `granite.config.ts` | |
 | Category | Non-game category matching the service | Beauty/wellness-like self-care, final console choice needed | |
@@ -81,7 +81,7 @@ Use the Korean drafts in `docs/store-privacy-answers.md` as starting copy, then 
 
 | Field | Source/Draft | Owner Confirmation |
 |---|---|---|
-| App name | `사괄` | |
+| App name | `싸괄` | |
 | Subtitle/short description | `STORE_LISTING_DRAFT.md` | |
 | Full description | `STORE_LISTING_DRAFT.md` | |
 | Keywords/tags/category | `STORE_LISTING_DRAFT.md`, final store console | |

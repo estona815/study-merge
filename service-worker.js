@@ -1,9 +1,9 @@
-const cacheName = "gwalsa-routine-v20260612a05";
+const cacheName = "gwalsa-routine-v20260612a06";
 const assets = [
   "./",
   "./index.html",
-  "./styles.css?v=20260612a05",
-  "./app.js?v=20260612a05",
+  "./styles.css?v=20260612a06",
+  "./app.js?v=20260612a06",
   "./manifest.json",
   "./assets/icon.svg",
   "./assets/icon-192.png",

@@ -1,8 +1,8 @@
 # Final Plugin-Based Production Review
 
 Date: 2026-06-10
-Build: `20260612a05`
-Service worker cache: `gwalsa-routine-v20260612a05`
+Build: `20260612a06`
+Service worker cache: `gwalsa-routine-v20260612a06`
 Verdict: **Web/PWA ship candidate; store submission remains external-blocked**
 
 ## Executive Summary

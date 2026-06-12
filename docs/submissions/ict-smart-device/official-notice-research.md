@@ -97,7 +97,7 @@ The official web form shows a confirmation message that saved submissions cannot
 
 Submission copy should position 괄사 루틴 as a static Web/PWA concept and demo for general beauty self-care. The repository evidence supports:
 
-- App build `20260612a05`
+- App build `20260612a06`
 - Browser-local routine timer and local records
 - User-selected camera/upload flow for reference route display
 - MediaPipe Face Landmarker production QA with `referenceOnly=false`

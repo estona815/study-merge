@@ -1,5 +1,5 @@
 const storageKey = "gwalsa-routine-state-v1";
-const appBuild = "20260612a05";
+const appBuild = "20260612a06";
 const FACE_SCAN_MIN_DIMENSION = 220;
 const FACE_SCAN_MIN_FILE_BYTES = 64 * 1024;
 const FACE_SCAN_MAX_FILE_BYTES = 10 * 1024 * 1024;
@@ -30,9 +30,9 @@ const PUBLIC_POLICY_URL = "./public/privacy-policy.html";
 const PUBLIC_TERMS_URL = "./public/terms-disclaimer.html";
 const PUBLIC_SUPPORT_URL = "./public/support.html";
 const policySummaryText = [
-  "사괄 정책 요약",
+  "싸괄 정책 요약",
   "",
-  "사괄은 일반적인 뷰티 루틴과 셀프케어 참고용 안내만 제공합니다.",
+  "싸괄은 일반적인 뷰티 루틴과 셀프케어 참고용 안내만 제공합니다.",
   "의료 조언, 진단, 치료, 질병 예방 목적이 아닙니다.",
   "의료 진단, 피부질환 판단, 외모 변화나 특정 결과를 약속할 수 없습니다.",
   "상처, 자극, 붉음, 컨디션 불편감이 있는 부위는 피하고 불편함이 느껴지면 즉시 중단하세요.",
@@ -2974,7 +2974,7 @@ function applyLaunchDemoMode() {
   }
   completionNotice = {
     title: "오늘도 루틴을 정돈했어요",
-    meta: "오늘의 사괄 루틴 완료가 기록에 반영되었습니다.",
+    meta: "오늘의 싸괄 루틴 완료가 기록에 반영되었습니다.",
   };
   setScreen("today");
   state.settings.onboardingSeenBuild = appBuild;
@@ -3860,7 +3860,7 @@ const completionCopies = [
   "오늘도 루틴을 정돈했어요",
   "컨디션 점검 완료",
   "목표 라인 마감",
-  "사괄 완료 체크",
+  "싸괄 완료 체크",
 ];
 
 function getFaceConditionMood(guide = {}) {
@@ -4234,7 +4234,7 @@ function getRhythmReportText(report = getRhythmReport()) {
     return `- ${getDateKey(new Date(log.date))} · ${logRoutine.title} · ${reactionLabel(log.reaction)} · 전후 느낌 차이 ${getLogRelief(log)}${note}`;
   });
   return [
-    "# 사괄 주간 요약",
+    "# 싸괄 주간 요약",
     `기간: ${getWeeklyReportRangeLabel()}`,
     `목표: ${weeklyLogs.length}/${goal}회 · ${weeklyMinutes}분 · 평균 전후 느낌 차이 ${getAverageReliefLabel(weeklyLogs)}`,
     `반응: ${getReactionSummaryLabel(weeklyLogs)}`,
@@ -4567,7 +4567,7 @@ async function checkReminderDue() {
 
 async function sendReminderNotification(isTest) {
   const plan = getPlanForDate();
-  const title = isTest ? "사괄 알림 테스트" : "오늘 사괄 루틴";
+  const title = isTest ? "싸괄 알림 테스트" : "오늘 싸괄 루틴";
   const body = isTest
     ? "설정한 시간에 이런 알림이 표시됩니다. 괄사력 충전 대기 중."
     : `${plan.dayNumber}일차 ${plan.title} 루틴을 진행할 시간입니다.`;
@@ -4830,8 +4830,8 @@ function completeRoutine() {
   saveState();
   render();
   showToast(removedPhotos
-    ? `사괄 완료 · 사진 ${removedPhotos}장을 보관 정책으로 정리했습니다.`
-    : "사괄 완료 · 오늘 기록을 저장했습니다.");
+    ? `싸괄 완료 · 사진 ${removedPhotos}장을 보관 정책으로 정리했습니다.`
+    : "싸괄 완료 · 오늘 기록을 저장했습니다.");
 }
 
 function openFaceRoutineRecommendation() {
@@ -5529,7 +5529,7 @@ function buildCustomRoutine(name, focus, minutes) {
     difficulty: minutes <= 3 ? "초간단" : minutes <= 5 ? "쉬움" : "보통",
     tag: "내 얼굴 사정 반영",
     situation: `${focusLabel(focus)}이 필요한 날`,
-    description: `${focusLabel(focus)} 중심으로 직접 만든 사괄 루틴입니다.`,
+    description: `${focusLabel(focus)} 중심으로 직접 만든 싸괄 루틴입니다.`,
     steps: template.map((step, index) => ({
       ...step,
       seconds: baseSeconds + (index === template.length - 1 ? extraSeconds : 0),
@@ -5843,7 +5843,7 @@ function getHandoffMemoText() {
   const weeklyLogs = getWeeklyLogs();
   const weeklyMinutes = Math.round(weeklyLogs.reduce((sum, log) => sum + Number(log.duration || 0), 0) / 60);
   return [
-    "# 사괄 백업 메모",
+    "# 싸괄 백업 메모",
     `생성: ${new Date().toLocaleString("ko-KR")}`,
     `앱 빌드: ${appBuild}`,
     "저장 방식: 기록과 사진은 이 브라우저에 저장되며, 백업 파일은 사용자가 직접 보관합니다.",
@@ -6776,7 +6776,7 @@ function renderSettingsOverview() {
   $("#settingsOverviewConcern").textContent = concernLabels[profile.mainConcern] || "아침 컨디션";
   $("#settingsOverviewPressure").textContent = pressureLabel(state.settings.pressureMode).replace(" 압력", "");
   $("#settingsOverviewReminder").textContent = reminderLabel;
-  $("#settingsOverviewMeta").textContent = `사괄 설정 · ${getProfileSummary()} · ${pressureLabel(state.settings.pressureMode)} · 알림 ${reminderLabel}`;
+  $("#settingsOverviewMeta").textContent = `싸괄 설정 · ${getProfileSummary()} · ${pressureLabel(state.settings.pressureMode)} · 알림 ${reminderLabel}`;
 }
 
 function getReminderStatusLabel(permission, enabled) {
@@ -6875,7 +6875,7 @@ function renderDraftStatus() {
   $("#draftStatusBadge").textContent = appBuild;
   $("#draftStatusMeta").textContent = updateAvailable
     ? `빌드 ${appBuild} · 새 캐시 적용 대기`
-    : `사괄 빌드 ${appBuild} · 루틴, 기록, 백업, 정책 화면 준비 완료`;
+    : `싸괄 빌드 ${appBuild} · 루틴, 기록, 백업, 정책 화면 준비 완료`;
   $("#draftChecklist").innerHTML = items.map((item) => `
     <article class="release-item">
       <span>${escapeHtml(item.label)}</span>

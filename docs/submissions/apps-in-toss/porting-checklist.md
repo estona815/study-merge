@@ -6,7 +6,7 @@
 
 | 항목 | 값 |
 | --- | --- |
-| App build | `20260612a05` |
+| App build | `20260612a06` |
 | Web release package | Regenerate with `./scripts/package-web-release.sh` |
 | Static asset size | Recheck after release packaging; current `assets/` includes vendored MediaPipe runtime |
 | Current stack | HTML, CSS, vanilla JavaScript |

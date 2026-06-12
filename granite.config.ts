@@ -3,7 +3,7 @@ import { defineConfig } from '@apps-in-toss/web-framework/config';
 export default defineConfig({
   appName: 'sagwal',
   brand: {
-    displayName: '사괄',
+    displayName: '싸괄',
     primaryColor: '#2F7D72',
     icon: '',
   },

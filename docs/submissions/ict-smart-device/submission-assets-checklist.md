@@ -50,7 +50,7 @@
 | Exact official upload format confirmed | To do |
 | File names and size limits confirmed | To do |
 | All public URLs reachable | To do |
-| Submitted build identity matches `20260612a05` or a newly documented build | To do |
+| Submitted build identity matches `20260612a06` or a newly documented build | To do |
 | Submitted QA evidence uses real MediaPipe production path | To do |
 | mock/reference clearly labeled QA-only | To do |
 | Medical, diagnostic, treatment, disease-prevention, and guaranteed-result wording removed | To do |

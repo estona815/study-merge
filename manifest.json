@@ -1,6 +1,6 @@
 {
-  "name": "사괄",
-  "short_name": "사괄",
+  "name": "싸괄",
+  "short_name": "싸괄",
   "description": "얼굴 붓기와 오늘의 멘탈을 같이 밀어내는 괄사 루틴, 타이머, 로컬 기록 앱",
   "lang": "ko",
   "start_url": "./index.html",

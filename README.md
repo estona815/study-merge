@@ -1,4 +1,4 @@
-# 사괄
+# 싸괄
 
 얼굴 컨디션을 가볍게 확인하며 루틴을 이어가는 괄사 셀프케어 정적 PWA입니다. 괄사 루틴 안내, 단계별 타이머, 로컬 기록, 전후 사진 메모, 백업/복원, 알림 리마인더를 제공합니다.
 
@@ -25,8 +25,8 @@ python3 -m http.server 4173
 
 ```bash
 node --check app.js
-curl -s http://localhost:4173/index.html | rg "사괄|20260612a05"
-curl -s http://localhost:4173/service-worker.js | rg "gwalsa-routine-v20260612a05|20260612a05"
+curl -s http://localhost:4173/index.html | rg "싸괄|20260612a06"
+curl -s http://localhost:4173/service-worker.js | rg "gwalsa-routine-v20260612a06|20260612a06"
 ```
 
 ## 저장 데이터

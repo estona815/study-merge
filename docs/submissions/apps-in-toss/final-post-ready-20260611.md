@@ -3,18 +3,18 @@
 ## 제출 전 자동 검증 상태
 
 - final-launch-gate: **passed**
-- app build: `20260612a05`
-- sw cache: `gwalsa-routine-v20260612a05`
+- app build: `20260612a06`
+- sw cache: `gwalsa-routine-v20260612a06`
 - launch evidence: `docs/launch-release-evidence-20260607.md` (update-launch-evidence output 기준)
 - functional smoke: `output/playwright/20260608-functional-smoke/functional-smoke-report.json` (`passed`)
 - real model check: `output/playwright/20260610-real-model-check/metrics.json` (`passed`, `provider=mediapipe`, `referenceOnly=false`)
 
 ## 업로드 패키지
 
-- Web release zip: `output/release/gwalsa-web-pwa-20260611-020247.zip`
-- Web release manifest: `output/release/gwalsa-web-pwa-20260611-020247/release/release-manifest.json`
+- Web release zip: `output/release/gwalsa-web-pwa-20260612-141823.zip`
+- Web release manifest: `output/release/gwalsa-web-pwa-20260612-141823/release/release-manifest.json`
 - Web sha256: `04baa04ac622a8325e42dbc8548a4308257e18316bf7db3ad287a23f30031adc`
-- Store assets zip: `output/store-assets/gwalsa-store-assets-20260611-020255.zip`
+- Store assets zip: `output/store-assets/gwalsa-store-assets-20260612-141832.zip`
 - Store assets sha256: `a8d5973eeb9c653685a2e50d5ee4b7701a17ec452506c30b73e4b4681541adcc`
 
 ## 토스 인앱 최종 단계 체크(콘솔에서 수작업)

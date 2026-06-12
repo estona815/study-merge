@@ -8,25 +8,27 @@ This file records current PWA evidence only. Apps in Toss sandbox and review QA 
 
 | 항목 | 값 |
 | --- | --- |
-| App build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
-| Web release package | `gwalsa-web-pwa-20260610-100147` |
-| Web release size | `4.3M` extracted, `3.4M` zip |
-| Store asset package | `gwalsa-store-assets-20260610-100154` |
+| App build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
+| Web release package | `gwalsa-web-pwa-20260612-141823` |
+| Web release size | `37M` extracted, `14M` zip |
+| Store asset package | `gwalsa-store-assets-20260612-141832` |
+| Apps in Toss image package | `gwalsa-apps-in-toss-submission-20260612-141845` |
 | Latest PWA QA status | `passed` |
 
 ## Current Release Artifacts
 
 | Artifact | Path | SHA-256 |
 | --- | --- | --- |
-| Web/PWA zip | `output/release/gwalsa-web-pwa-20260610-100147.zip` | `4254c05459f5c6be3c79058c79e5688527586f4a79547d4ee397d4abf1b455c0` |
-| Store assets zip | `output/store-assets/gwalsa-store-assets-20260610-100154.zip` | `0ed6019ff70baa7d6e4ed0f0f485c653d0e868c84ab3b52d1fd9649bb3a01eb4` |
+| Web/PWA zip | `output/release/gwalsa-web-pwa-20260612-141823.zip` | `a216f6a041f4e8b38fe03fb3158652a8f083d9558feee819054999a36b508ec2` |
+| Store assets zip | `output/store-assets/gwalsa-store-assets-20260612-141832.zip` | `39112e3c05467b1739a9baf1977bd8ef5ded3df3d69fb053cae676e859841927` |
+| Apps in Toss image zip | `output/apps-in-toss/gwalsa-apps-in-toss-submission-20260612-141845.zip` | `f76bc050dc6e94e6e5c011918385b258907455eab0e2fef4358cfcfe5c1b61fb` |
 
 ## Latest Production Model Check
 
 Source: `output/playwright/20260610-real-model-check/metrics.json`
 
-- Generated: `2026-06-10T00:59:12.754Z`
+- Generated: `2026-06-12T05:17:33.708Z`
 - Status: `passed`
 - Page errors: none
 - Launch URL: no reference guide query
@@ -36,12 +38,12 @@ Source: `output/playwright/20260610-real-model-check/metrics.json`
 - Source: `upload-landmark`
 - Reference-only mode: `false`
 - Point count used by the app: `58`
-- Routine title returned: `아침 컨디션 참고 루틴`
+- Routine title returned: `사과 리셋 참고 루틴`
 
 Release traceability:
 
 - Packaged evidence path: `release/evidence/output/playwright/20260610-real-model-check/metrics.json`
-- Packaged evidence SHA-256: `6da698be05a50b93c6078988a8e7357ed59fa8fecb7e462cb01f4598f173d58a`
+- Packaged evidence SHA-256: `0674dc21aabbcc2d5465d996094f6340cc4430aa157281b96de910c034fb041a`
 
 ## Apps In Toss QA Still Needed
 

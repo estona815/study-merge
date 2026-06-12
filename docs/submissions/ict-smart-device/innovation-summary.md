@@ -20,7 +20,7 @@ The current build uses browser-executed logic, local storage, service worker cac
 
 ## Evidence
 
-- App build: `20260612a05`
+- App build: `20260612a06`
 - Real model QA: `output/playwright/20260610-real-model-check/metrics.json`
 - QA status: `passed`
 - Production criteria: `provider=mediapipe`, `detectorSource=real`, `source=upload-landmark`, `referenceOnly=false`, `containsMock=false`

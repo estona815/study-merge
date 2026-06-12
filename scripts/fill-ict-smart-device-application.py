@@ -118,7 +118,7 @@ def fill_application() -> Path:
     )
     set_cell(
         summary.rows[3].cells[1],
-        "☑ MVP개발 중 (정적 Web/PWA build 20260612a05, real MediaPipe QA 통과)\n"
+        "☑ MVP개발 중 (정적 Web/PWA build 20260612a06, real MediaPipe QA 통과)\n"
         "□ 아이디어 단계\n"
         "□ 알파ㆍ베타테스트",
     )
@@ -141,7 +141,7 @@ def fill_application() -> Path:
         "괄사 루틴은 HTML, CSS, vanilla JavaScript로 구현된 정적 Web/PWA이다. 앱은 루틴 안내, 단계별 타이머, 로컬 기록, 사진 메모, "
         "백업/복원, 리마인더, 선택형 얼굴 참고 가이드를 제공한다. 데이터는 현재 브라우저의 localStorage를 중심으로 저장되며, 백업 파일은 사용자가 직접 생성할 때만 만들어진다.\n\n"
         "온디바이스 적용 관점에서, 얼굴 참고 가이드는 MediaPipe Face Landmarker 기반으로 브라우저 안에서 실행되는 참고 동선 표시 흐름이다. "
-        "현재 build 20260612a05의 production QA는 real MediaPipe upload flow에서 provider=mediapipe, detectorSource=real, "
+        "현재 build 20260612a06의 production QA는 real MediaPipe upload flow에서 provider=mediapipe, detectorSource=real, "
         "source=upload-landmark, referenceOnly=false, containsMock=false 조건으로 통과했다. QA-only mock/reference 경로는 운영 성공 기준으로 사용하지 않는다.\n\n"
         "클라우드 서버 없이 브라우저 로컬 중심으로 처리하면 사용자가 선택한 입력과 기록의 범위를 더 명확히 제어할 수 있고, 데모 환경에서는 QR 또는 URL로 빠르게 실행할 수 있다. "
         "현재 Face Landmarker 모델 파일은 앱 자산에 포함되어 있으며, MediaPipe Tasks Vision JS/WASM runtime은 CDN에서 필요 시 로드한다. 완전 오프라인 시연을 위해서는 runtime vendoring 후 재검증한다.",
@@ -168,7 +168,7 @@ def fill_application() -> Path:
     add_section_text(
         detail.rows[9].cells[0],
         "5. 개발 진행 현황 및 계획",
-        "현재 build 20260612a05 기준 Web/PWA release package와 store asset package가 생성되어 있다. "
+        "현재 build 20260612a06 기준 Web/PWA release package와 store asset package가 생성되어 있다. "
         "Web release zip은 output/release/gwalsa-web-pwa-20260610-100147.zip이며 SHA-256은 4254c05459f5c6be3c79058c79e5688527586f4a79547d4ee397d4abf1b455c0이다. "
         "최신 real-model QA evidence는 output/playwright/20260610-real-model-check/metrics.json이고 status는 passed이다.\n\n"
         "향후 계획은 1단계로 안정적인 HTTPS 데모 URL 배포와 QR 테스트를 진행하고, 2단계로 목표 디바이스/브라우저에서 카메라 권한, 업로드 fallback, 서비스 워커 동작, 로컬 삭제/초기화 흐름을 확인한다. "

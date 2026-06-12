@@ -8,8 +8,8 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 
 const expected = {
-  appBuild: "20260612a05",
-  serviceWorkerCache: "gwalsa-routine-v20260612a05",
+  appBuild: "20260612a06",
+  serviceWorkerCache: "gwalsa-routine-v20260612a06",
   webPackage: "gwalsa-web-pwa-20260610-100147",
   webZip: "output/release/gwalsa-web-pwa-20260610-100147.zip",
   webZipSha256: "4254c05459f5c6be3c79058c79e5688527586f4a79547d4ee397d4abf1b455c0",

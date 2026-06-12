@@ -6,8 +6,8 @@
 
 | 항목 | 값 |
 | --- | --- |
-| App build | `20260612a05` |
-| Service worker cache | `gwalsa-routine-v20260612a05` |
+| App build | `20260612a06` |
+| Service worker cache | `gwalsa-routine-v20260612a06` |
 | Web release package | `gwalsa-web-pwa-20260610-100147` |
 | Web zip SHA-256 | `4254c05459f5c6be3c79058c79e5688527586f4a79547d4ee397d4abf1b455c0` |
 | Store asset package | `gwalsa-store-assets-20260610-100154` |
@@ -17,7 +17,7 @@
 
 Latest QA basis: **passed**.
 
-The current common submission package is based on the latest generated release pointer and the packaged QA evidence for build `20260612a05`. The app should be described only as a general beauty self-care PWA for routine guidance, local logs, reminders, and reference route display.
+The current common submission package is based on the latest generated release pointer and the packaged QA evidence for build `20260612a06`. The app should be described only as a general beauty self-care PWA for routine guidance, local logs, reminders, and reference route display.
 
 ## Evidence Summary
 

@@ -22,6 +22,9 @@ output/release/*
 !output/store-assets/
 output/store-assets/*
 !output/store-assets/latest-store-assets.json
+!output/apps-in-toss/
+output/apps-in-toss/*
+!output/apps-in-toss/latest-apps-in-toss-submission.json
 
 # Local caches and logs
 .cache/

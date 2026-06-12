@@ -312,7 +312,7 @@ sleep 1
 if ! curl -sSf "http://127.0.0.1:${PORT}/index.html" >/tmp/gwalsa-index.html; then
   log_fail "index.html not served at localhost:${PORT}"
 fi
-if ! rg -q "사괄|\"${APP_BUILD}\"" /tmp/gwalsa-index.html; then
+if ! rg -q "싸괄|\"${APP_BUILD}\"" /tmp/gwalsa-index.html; then
   log_fail "index.html smoke check failed to find expected content"
 fi
 if ! curl -sSf "http://127.0.0.1:${PORT}/service-worker.js" > /tmp/gwalsa-sw.js; then
@@ -321,7 +321,7 @@ fi
 if ! rg -q "${SW_CACHE}" /tmp/gwalsa-sw.js; then
   log_fail "service-worker.js cache name mismatch in served file"
 fi
-if ! curl -sSf "http://127.0.0.1:${PORT}/manifest.json" | rg -q "\"name\"\\s*:\\s*\"사괄\""; then
+if ! curl -sSf "http://127.0.0.1:${PORT}/manifest.json" | rg -q "\"name\"\\s*:\\s*\"싸괄\""; then
   log_fail "manifest fetch smoke check failed"
 fi
 if ! curl -sSf "http://127.0.0.1:${PORT}/${PUBLIC_POLICY_PATH}" >/tmp/gwalsa-policy.html 2>/dev/null; then

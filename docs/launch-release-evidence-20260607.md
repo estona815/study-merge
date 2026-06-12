@@ -4,11 +4,11 @@
 
 ## 자동 점검 결과
 
-- 생성 시각 UTC: `2026-06-12T04:37:10.479Z`
-- 생성 시각 KST: `2026-06-12T13:37:10+09:00`
+- 생성 시각 UTC: `2026-06-12T05:18:33.807Z`
+- 생성 시각 KST: `2026-06-12T14:18:33+09:00`
 - 실행 경로: `/Users/hantaeheuk/Documents/괄사`
-- 앱 빌드: `20260612a05`
-- 서비스워커 캐시: `gwalsa-routine-v20260612a05`
+- 앱 빌드: `20260612a06`
+- 서비스워커 캐시: `gwalsa-routine-v20260612a06`
 - 웹/PWA 상태: `conditional-go`
 - 스토어 제출 상태: `external-blocked`
 
@@ -74,16 +74,16 @@
 
 ## 최신 릴리스 패키지
 
-- 패키지: `gwalsa-web-pwa-20260612-133700`
-- zip: `output/release/gwalsa-web-pwa-20260612-133700.zip`
-- sha256: `d0fd3f9c99e6f2cfc23d0a8a99eb9bcbfafb746b3d7cce188e4239b2483db3c3`
-- manifest: `output/release/gwalsa-web-pwa-20260612-133700/release/release-manifest.json`
+- 패키지: `gwalsa-web-pwa-20260612-141823`
+- zip: `output/release/gwalsa-web-pwa-20260612-141823.zip`
+- sha256: `a216f6a041f4e8b38fe03fb3158652a8f083d9558feee819054999a36b508ec2`
+- manifest: `output/release/gwalsa-web-pwa-20260612-141823/release/release-manifest.json`
 
 ## 최신 스토어 에셋 패키지
 
-- 패키지: `gwalsa-store-assets-20260612-133709`
-- zip: `output/store-assets/gwalsa-store-assets-20260612-133709.zip`
-- sha256: `a18cb71e69f6c881af86ba1513b609f12680f665656ed78fad2a03a8cded9b3a`
+- 패키지: `gwalsa-store-assets-20260612-141832`
+- zip: `output/store-assets/gwalsa-store-assets-20260612-141832.zip`
+- sha256: `39112e3c05467b1739a9baf1977bd8ef5ded3df3d69fb053cae676e859841927`
 
 ## 스크린샷 증적
 

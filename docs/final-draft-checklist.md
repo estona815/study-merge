@@ -22,8 +22,8 @@
 
 ## 현재 빌드
 
-- 앱 빌드: `20260612a05`
-- 서비스워커 캐시: `gwalsa-routine-v20260612a05`
+- 앱 빌드: `20260612a06`
+- 서비스워커 캐시: `gwalsa-routine-v20260612a06`
 - 저장 방식: 브라우저 로컬 저장소
 - Apps in Toss 준비: `granite.config.ts`, `TOSS_INAPP_RELEASE_TODO.md`
 
@@ -34,8 +34,8 @@ node --check app.js
 ./scripts/launch-precheck.sh
 ./scripts/run-real-face-model-check.sh
 python3 -m http.server 4173
-curl -s http://localhost:4173/index.html | rg "20260612a05|사괄"
-curl -s http://localhost:4173/service-worker.js | rg "gwalsa-routine-v20260612a05|20260612a05"
+curl -s http://localhost:4173/index.html | rg "20260612a06|싸괄"
+curl -s http://localhost:4173/service-worker.js | rg "gwalsa-routine-v20260612a06|20260612a06"
 ./scripts/make-handoff-snapshot.sh
 ./scripts/write-launch-evidence.sh
 ```
