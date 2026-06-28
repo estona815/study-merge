@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Study Merge",
+    "slug": "study-merge",
+    "scheme": "studymerge",
+    "version": "0.1.0",
+    "description": "2048 퍼즐과 퀴즈를 결합한 학습 게임 MVP",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "primaryColor": "#2457ff",
+    "backgroundColor": "#0b1020",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

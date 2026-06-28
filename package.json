@@ -1,16 +1,34 @@
 {
-  "name": "sagwal-apps-in-toss",
+  "name": "study-merge",
+  "version": "0.1.0",
   "private": true,
-  "version": "20260612.6.0",
-  "description": "Sagwal local-first gua sha self-care Web/PWA prepared for Apps in Toss WebView review.",
+  "main": "expo/AppEntry",
   "scripts": {
-    "dev": "python3 -m http.server 5173",
-    "build": "node scripts/build-static-dist.js",
-    "build:web": "node scripts/build-static-dist.js",
-    "check": "node --check app.js && node --check service-worker.js",
-    "package:apps-in-toss": "python3 scripts/package-apps-in-toss-submission.py"
+    "dev": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "doctor": "pnpm dlx expo-doctor",
+    "check": "pnpm typecheck && pnpm test && pnpm doctor",
+    "validate:content": "node --import tsx ./scripts/validateContent.ts",
+    "web:export": "CI=1 expo export --platform web && node ./scripts/prepareWebExport.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test __tests__/**/*.test.ts"
   },
   "dependencies": {
-    "@apps-in-toss/web-framework": "^2.6.0"
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "56.0.12",
+    "expo-status-bar": "56.0.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-web": "^0.21.2",
+    "zustand": "5.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "26.0.1",
+    "@types/react": "19.2.17",
+    "tsx": "4.22.4",
+    "typescript": "6.0.3"
   }
 }
