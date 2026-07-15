@@ -1,0 +1,8 @@
+{
+  "name": "Ilarune.Core",
+  "rootNamespace": "Ilarune.Core",
+  "references": [
+    "Ilarune.Shared"
+  ],
+  "autoReferenced": true
+}

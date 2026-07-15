@@ -1,0 +1,11 @@
+{
+  "name": "Ilarune.Battle",
+  "rootNamespace": "Ilarune.Battle",
+  "references": [
+    "Ilarune.Core",
+    "Ilarune.Shared",
+    "Ilarune.UI",
+    "Unity.ugui",
+    "Unity.TextMeshPro"
+  ]
+}

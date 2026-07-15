@@ -1,0 +1,9 @@
+{
+  "name": "Ilarune.UI",
+  "rootNamespace": "Ilarune.UI",
+  "references": [
+    "Unity.ugui",
+    "Unity.TextMeshPro"
+  ],
+  "autoReferenced": true
+}
