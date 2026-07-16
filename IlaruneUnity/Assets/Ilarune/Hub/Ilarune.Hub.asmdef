@@ -1,0 +1,11 @@
+{
+  "name": "Ilarune.Hub",
+  "rootNamespace": "Ilarune.Hub",
+  "references": [
+    "Ilarune.Core",
+    "Ilarune.Shared",
+    "Ilarune.UI",
+    "Unity.ugui"
+  ],
+  "autoReferenced": true
+}

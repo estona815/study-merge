@@ -1,0 +1,13 @@
+{
+  "name": "Ilarune.Editor",
+  "rootNamespace": "Ilarune.Editor",
+  "references": [
+    "Ilarune.Battle",
+    "Ilarune.Core",
+    "Ilarune.Hub"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

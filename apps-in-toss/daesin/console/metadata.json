@@ -1,0 +1,55 @@
+{
+  "workspaceId": 49499,
+  "miniAppId": 53958,
+  "appName": "daesin",
+  "displayNameKo": "대신",
+  "displayNameEn": "Daesin",
+  "appType": "non-game",
+  "subtitle": "배달앱 전, 나를 위한 5분",
+  "description": "먹고 싶은 음식을 입력하고 현재 배고픔을 고른 뒤, 5분 미루기·가벼운 대안·먹을 계획 중 하나를 직접 선택해요. 미루기를 고르면 타이머를 보고, 대안이나 계획을 고르면 구체적인 다음 행동을 정한 뒤 선택 결과를 확인할 수 있어요.",
+  "age": "만 19세 이상",
+  "category": ["생활", "건강", "건강 관리"],
+  "searchKeywords": ["야식", "배달", "식습관", "마음챙김"],
+  "primaryColor": "#FF72AE",
+  "icon": {
+    "path": "console/daesin-app-icon-600.png",
+    "requiredSpec": "600x600 PNG, opaque background",
+    "hostedUrl": "https://static.toss.im/appsintoss/49499/96d40f0c-7e89-4296-b8e1-9bfef86eddc6.png",
+    "darkModeHostedUrl": "https://static.toss.im/appsintoss/49499/f19672e8-7fb1-46a3-ab56-6d51de0339e9.png",
+    "hostingStatus": "uploaded-to-console"
+  },
+  "thumbnail": {
+    "status": "uploaded-to-console-draft",
+    "path": "console/store-assets/daesin-thumbnail-1932x828.png",
+    "requiredSpec": "1932x828 PNG",
+    "brief": "Night Bloom 배경 위에 '배달앱보다 5분 먼저 열어요'와 실제 선택 화면, 대신이 마스코트를 보여 주는 가로형 이미지"
+  },
+  "screenshots": {
+    "status": "uploaded-to-console-draft",
+    "requiredSpec": "vertical 636x1048 PNG at least 3, or horizontal 1504x741 PNG at least 1",
+    "sourceCaptures": "console/store-assets"
+  },
+  "support": {
+    "email": "CONFIRM_OWNED_SUPPORT_EMAIL_BEFORE_SUBMIT",
+    "consoleStatus": "required-on-basic-info-step"
+  },
+  "legal": {
+    "requiredForCurrentScope": false,
+    "privacyPolicyUrl": null,
+    "termsUrl": null
+  },
+  "mainFeature": {
+    "nameKo": "5분 선택하기",
+    "nameEn": "Pause choice",
+    "url": "intoss://daesin/"
+  },
+  "consoleState": {
+    "appInfo": "draft-saved",
+    "bundle": "registered-awaiting-qr-test",
+    "bundleVersion": "20260715-1",
+    "sdkVersion": "2.10.4",
+    "deploymentId": "019f63f7-fac1-7e5e-bf84-e50a19866cbd",
+    "qrTest": "owner-action-pending",
+    "reviewRequested": false
+  }
+}
