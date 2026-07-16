@@ -8,6 +8,11 @@ const workspaceRoot = dirname(dirname(projectRoot));
 const dist = join(projectRoot, "dist");
 const esbuild = join(workspaceRoot, "node_modules", ".bin", "esbuild");
 const iconSource = join(workspaceRoot, "assets", "daesin", "app-icon.png");
+const previewMode = process.env.DAESIN_PREVIEW === "1";
+const assetRoot = previewMode ? "./assets" : "/assets";
+const assetVersion = previewMode && process.env.DAESIN_PREVIEW_VERSION
+  ? `?v=${encodeURIComponent(process.env.DAESIN_PREVIEW_VERSION)}`
+  : "";
 
 if (!existsSync(esbuild)) throw new Error(`esbuild를 찾지 못했습니다: ${esbuild}`);
 if (!existsSync(iconSource)) throw new Error(`DAESIN 아이콘을 찾지 못했습니다: ${iconSource}`);
@@ -18,7 +23,7 @@ cpSync(iconSource, join(dist, "assets", "app-icon.png"));
 
 writeFileSync(
   join(dist, "index.html"),
-  `<!doctype html><html lang="ko"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#160F1E"/><meta name="color-scheme" content="dark"/><title>대신</title><link rel="stylesheet" href="/assets/app.css"/></head><body><div id="root"></div><script src="/assets/app.js"></script></body></html>`,
+  `<!doctype html><html lang="ko"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#160F1E"/><meta name="color-scheme" content="dark"/><title>대신</title><link rel="stylesheet" href="${assetRoot}/app.css${assetVersion}"/></head><body><div id="root"></div><script src="${assetRoot}/app.js${assetVersion}"></script></body></html>`,
 );
 
 execFileSync(
@@ -32,9 +37,9 @@ execFileSync(
     "--minify",
     "--loader:.png=file",
     "--asset-names=[name]-[hash]",
-    "--public-path=/assets",
+    `--public-path=${assetRoot}`,
     "--outfile=dist/assets/app.js",
-    ...(process.env.DAESIN_PREVIEW === "1"
+    ...(previewMode
       ? ["--alias:@toss/tds-mobile=./src/tds-preview.tsx"]
       : []),
   ],
