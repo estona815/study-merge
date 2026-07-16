@@ -34,6 +34,9 @@ execFileSync(
     "--asset-names=[name]-[hash]",
     "--public-path=/assets",
     "--outfile=dist/assets/app.js",
+    ...(process.env.DAESIN_PREVIEW === "1"
+      ? ["--alias:@toss/tds-mobile=./src/tds-preview.tsx"]
+      : []),
   ],
   { cwd: projectRoot, stdio: "inherit" },
 );
