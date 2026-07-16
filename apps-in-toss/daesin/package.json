@@ -1,0 +1,28 @@
+{
+  "name": "daesin-toss-miniapp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:smoke": "node --test tests/flow.test.mjs",
+    "ait:build": "node scripts/run-ait.mjs build",
+    "release:package": "node scripts/package-release.mjs",
+    "verify:fast": "pnpm typecheck && pnpm lint && pnpm test:smoke && pnpm build",
+    "verify": "pnpm typecheck && pnpm lint && pnpm test && pnpm test:smoke"
+  },
+  "dependencies": {
+    "@apps-in-toss/web-framework": "2.10.4",
+    "@toss/tds-mobile": "2.5.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
+  }
+}

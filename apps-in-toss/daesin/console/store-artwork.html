@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1932, initial-scale=1" />
+    <title>대신 Apps in Toss 썸네일 원본</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #160f1e;
+        color: #f8f1f7;
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body {
+        width: 1932px;
+        height: 828px;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      body {
+        position: relative;
+        background:
+          radial-gradient(circle at 21% 21%, rgba(255, 114, 174, 0.2), transparent 27%),
+          radial-gradient(circle at 67% 44%, rgba(185, 154, 255, 0.16), transparent 31%),
+          linear-gradient(135deg, #1a1024 0%, #0a1027 100%);
+      }
+
+      body::before {
+        position: absolute;
+        inset: 0;
+        background-image:
+          radial-gradient(circle, rgba(255, 255, 255, 0.76) 0 1px, transparent 1.5px),
+          radial-gradient(circle, rgba(185, 154, 255, 0.62) 0 1px, transparent 1.5px);
+        background-position: 0 0, 37px 29px;
+        background-size: 92px 92px, 137px 137px;
+        opacity: 0.18;
+        content: "";
+        mask-image: linear-gradient(90deg, #000, transparent 72%);
+      }
+
+      .copy {
+        position: absolute;
+        z-index: 2;
+        top: 154px;
+        left: 150px;
+        width: 710px;
+      }
+
+      .wordmark {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        margin-bottom: 54px;
+        font-size: 38px;
+        font-weight: 900;
+        letter-spacing: -1.8px;
+      }
+
+      .heart {
+        width: 29px;
+        height: 25px;
+        filter: drop-shadow(0 0 14px rgba(255, 114, 174, 0.75));
+      }
+
+      h1 {
+        max-width: 680px;
+        margin: 0;
+        font-size: 82px;
+        line-height: 1.12;
+        letter-spacing: -5px;
+      }
+
+      h1 strong {
+        color: #ff72ae;
+        text-shadow: 0 0 28px rgba(255, 114, 174, 0.25);
+      }
+
+      p {
+        margin: 34px 0 0;
+        color: #d3c4d5;
+        font-size: 27px;
+        line-height: 1.5;
+        letter-spacing: -0.7px;
+      }
+
+      .phone {
+        position: absolute;
+        z-index: 3;
+        top: 54px;
+        left: 953px;
+        width: 437px;
+        height: 720px;
+        overflow: hidden;
+        border: 3px solid rgba(255, 255, 255, 0.28);
+        border-radius: 54px;
+        background: #160f1e;
+        box-shadow:
+          0 34px 80px rgba(0, 0, 0, 0.42),
+          0 0 72px rgba(185, 154, 255, 0.2);
+      }
+
+      .phone img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .mascot {
+        position: absolute;
+        z-index: 4;
+        right: 80px;
+        bottom: -54px;
+        width: 545px;
+        height: 545px;
+        object-fit: contain;
+        filter: drop-shadow(0 32px 50px rgba(0, 0, 0, 0.42));
+      }
+
+      .glow {
+        position: absolute;
+        right: 102px;
+        bottom: 36px;
+        width: 510px;
+        height: 510px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255, 114, 174, 0.26), rgba(185, 154, 255, 0.08) 45%, transparent 72%);
+        filter: blur(8px);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="copy" aria-label="대신 앱 소개">
+      <div class="wordmark">
+        <svg class="heart" viewBox="0 0 32 28" aria-hidden="true">
+          <path fill="#FF72AE" d="M16 27S1.8 18.8 1.8 8.8A7.3 7.3 0 0 1 16 6.5a7.3 7.3 0 0 1 14.2 2.3C30.2 18.8 16 27 16 27Z" />
+        </svg>
+        대신
+      </div>
+      <h1>배달앱보다<br /><strong>5분 먼저</strong> 열어요</h1>
+      <p>멈추라는 말 대신,<br />지금 내가 고를 수 있게.</p>
+    </section>
+
+    <div class="phone">
+      <img src="store-assets/03-options-636x1048.png" alt="대신 앱의 세 가지 선택 화면" />
+    </div>
+    <div class="glow" aria-hidden="true"></div>
+    <img class="mascot" src="../../../assets/daesin/mascot.png" alt="하트 타이머 마스코트 대신이" />
+  </body>
+</html>
